@@ -37,7 +37,6 @@ header {
     background-image: url("Drone shot.jpeg");
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
     height: 100vh;
     position: relative;
     color: white;
@@ -149,3 +148,4 @@ footer {
         height: 70vh;
     }
 }
+
