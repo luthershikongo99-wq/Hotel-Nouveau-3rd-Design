@@ -52,6 +52,29 @@ header {
     text-align: center;
 }
 
+/* TEXT UNDER HERO IMAGE*/
+.intro-text {
+    text-align: center;
+    padding: 40px 20px 10px;
+}
+
+.intro-text h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.intro-text p {
+    font-size: 1.05rem;
+    color: #555;
+}
+
+.icon {
+    width: 18px;
+    height: 18px;
+    fill: #caa24d;
+}
+
+
 /* INFO SECTION */
 .info-section {
     display: flex;
