@@ -1,3 +1,10 @@
+// Parallax for hero image
+const hero = document.querySelector(".hero");
+window.addEventListener("scroll", () => {
+    const offset = window.scrollY;
+    hero.style.backgroundPosition = `center ${offset * 0.5}px`;
+});
+
 // Multi-language support
 const translations = {
     en: {
@@ -124,3 +131,4 @@ setInterval(nextImage, 5000);
 // Buttons
 document.getElementById("nextBtn").addEventListener("click", nextImage);
 document.getElementById("prevBtn").addEventListener("click", prevImage);
+
